@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrient Filter</title>
+  <link rel="stylesheet" href="/stylesheets/stylefil.css">
+</head>
+<body>
+  <div class="filter">
+    <h2>Nutrient Filter</h2>
+    <div class="slider-container">
+      <label for="protein">Protein:</label>
+      <input type="range" id="protein" min="0" max="100" value="0">
+      <span id="protein-value">0</span>%
+    </div>
+    <div class="slider-container">
+      <label for="fat">Fat:</label>
+      <input type="range" id="fat" min="0" max="100" value="0">
+      <span id="fat-value">0</span>%
+    </div>
+    <div class="slider-container">
+      <label for="carbohydrates">Carbohydrates:</label>
+      <input type="range" id="carbohydrates" min="0" max="100" value="0">
+      <span id="carbohydrates-value">0</span>%
+    </div>
+    <div class="slider-container">
+      <label for="calories">Calories:</label>
+      <input type="range" id="calories" min="0" max="100" value="0">
+      <span id="calories-value">0</span>%
+    </div>
+    <div class="apply-button"><button>Apply</button></div>
+  </div>
+  <script src="/public/javascripts/scriptfil.js"></script>
+</body>
+</html>

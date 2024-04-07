@@ -1,0 +1,246 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:70px;
+  width:100%;
+  background-color:rgb(213, 142, 56);
+  
+}
+.logo{
+  height:70px;
+  width:70px;
+  background-image: url("/images/logo.jpeg");
+  background-size: cover;
+  
+}
+.logo-pic{
+  height:80px
+}
+input{
+  border-style:none;
+}
+.bar{
+  border-radius: 4px;
+  height:30px;
+  width:500px;
+}
+.Filter{
+  margin-left: 100px;
+}
+.Filter a{
+  text-decoration: none;
+  color:black;
+}
+.whishlist{
+  padding-left: 100px;
+}
+.whishlist a{
+  text-decoration: none;
+  color:black;
+  
+}
+#wish-logo{
+  padding-left: 20px;
+}
+.Account{
+  padding-right: 50px;
+}
+.Account a{
+  text-decoration: none;
+  color:black;
+  
+}
+#p-logo{
+  padding-left: 10px;
+}
+.homepage{
+  padding-top: 10px;
+  height:600px;
+  width:100%;
+  background-image:url("/images/homepage.webp");
+  background-size:cover;
+}
+#heading-1{
+margin-top: 40px;
+  height:70px;
+  width:100%;
+}
+
+#heading-1 p{
+  padding-left: 20px;
+  font-size: 35px;
+ font-weight: bold;
+}
+.content{
+  height:600px;
+  width:100%;
+}
+.big-box1{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.box1{
+  height:250px;
+  width:19%;
+  background-color:black;
+  border-radius: 50px;
+  background-image:url("/images/Mediterranean-Chickpea-Salad.jpg");
+  background-size:cover;
+}
+.box1 a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size: 20px;
+}
+.box2{
+  height:250px;
+  width:19%;
+  background-color:red;
+  border-radius: 50px;
+  background-image:url("/images/Quinoa salad.jpg");
+  background-size:cover;
+}
+.box2 a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size: 20px;
+}
+.box3{
+  height:250px;
+  width:19%;
+  background-color:rgb(193, 107, 107);
+  border-radius: 50px;
+  background-image:url("/images/roasted chicken.webp");
+  background-size:cover;
+}
+.box3 a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size: 20px;
+}
+.box4{
+  height:250px;
+  width:19%;
+  background-color:rgb(237, 201, 201);
+  border-radius: 50px;
+  background-image:url("/images/Mediterranean-Chickpea-Salad.jpg");
+  background-size:cover;
+}
+.box4 a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size: 20px;
+}
+.big-box2{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.box5{
+  height:250px;
+  width:19%;
+  background-color:black;
+  border-radius: 50px;
+  background-image:url("/images/Mediterranean-Chickpea-Salad.jpg");
+  background-size:cover;
+}
+.box5 a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size: 20px;
+}
+.box6{
+  height:250px;
+  width:19%;
+  background-color:red;
+  border-radius: 50px;
+  background-image:url("/images/Quinoa salad.jpg");
+  background-size:cover;
+}
+.box6 a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size: 20px;
+}
+.box7{
+  height:250px;
+  width:19%;
+  background-color:rgb(193, 107, 107);
+  border-radius: 50px;
+  background-image:url("/images/roasted chicken.webp");
+  background-size:cover;
+}
+.box7 a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size: 20px;
+}
+.box8{
+  height:250px;
+  width:19%;
+  background-color:rgb(237, 201, 201);
+  border-radius: 50px;
+  background-image:url("/images/Mediterranean-Chickpea-Salad.jpg");
+  background-size:cover;
+}
+.box8 a{
+  padding-left: 10px;
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+  font-size: 20px;
+}
+.box-title{
+  padding-top: 270px;
+}
+/* .footer-photo{
+  margin-top:250px;
+  margin-left:400px;
+  height:220px;
+  width:50%;
+  background-image:url("footer.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+} */
+.footer-section{
+  margin-top: 100px;
+}
+.green-color-part{
+  height: 405px;
+  width:100%;
+  background-color:rgb(213, 142, 56);
+ 
+}
+.foot-panel{
+  display: flex;
+  justify-content: space-evenly;
+ padding-top: 100px;
+}
+ul p{
+  font-size:1.5rem;
+}
+ul a{
+  font-weight: 200;
+}
